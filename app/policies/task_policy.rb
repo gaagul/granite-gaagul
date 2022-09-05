@@ -37,6 +37,7 @@ class TaskPolicy
     task.task_owner_id == user.id
   end
 
+  #------add new lines here----
   class Scope
     attr_reader :user, :scope
 
